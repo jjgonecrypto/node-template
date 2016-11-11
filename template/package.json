@@ -9,7 +9,7 @@
   },
   {{/bin}}
   "scripts": {
-    {{#test}
+    {{#test}}
     "test": "eslint && mocha",
     {{else}}
     "test": "eslint",
