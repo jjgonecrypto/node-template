@@ -1,0 +1,37 @@
+{
+  "name": "{{default name basename}}",
+  "version": "{{default version '1.0.0'}}",
+  "description": "{{description}}",
+  "main": "{{ default main 'index.js'}}",
+  {{#bin}}
+  "bin": {
+    "{{ bin }}": "./bin/cli.js"
+  },
+  {{/bin}}
+  "scripts": {
+    {{#test}
+    "test": "eslint && mocha",
+    {{else}}
+    "test": "eslint",
+    {{/test}}
+    }
+  },
+  "keywords": [
+    "{{default name basename}}"
+  ],
+  "author": "justin j. moses <justinjmoses@gmail.com>",
+  "license": "MIT",
+  "repository": "justinjmoses/{{default name basename}}",
+  "engines": {
+    "node": ">={{default minNodeVersion '6.0.0'}}"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    {{#test}}
+    "mocha": "^3.1.2",
+    "sinon": "^1.17.6",
+    {{/test}}
+    "eslint": "^3.9.1",
+  },
+}

@@ -1,2 +1,3 @@
-# node-template
-khaos template for new node projects
+##node-template
+
+Khaos template for new node projects
