@@ -5,7 +5,7 @@
   "main": "{{ default main 'index.js'}}",
   {{#bin}}
   "bin": {
-    "{{ binFile }}": "./bin/cli.js"
+    "{{binFile}}": "./bin/cli.js"
   },
   {{/bin}}
   "scripts": {
