@@ -2,4 +2,6 @@
 
 const {{nameInCode}} = require('../')
 
-module.exports = {}
+module.exports = () => {
+    {{nameInCode}}()
+}

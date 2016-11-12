@@ -14,14 +14,13 @@
     {{else}}
     "test": "eslint ."
     {{/test}}
-    }
   },
   "keywords": [
     "{{default name basename}}"
   ],
   "author": "justin j. moses <justinjmoses@gmail.com>",
   "license": "MIT",
-  "repository": "justinjmoses/{{default name basename}}",
+  "repository": "justinjmoses/{{name}}",
   "engines": {
     "node": ">={{default minNodeVersion '6.0.0'}}"
   },
@@ -33,5 +32,5 @@
     "sinon": "^1.17.6",
     {{/test}}
     "eslint": "^3.9.1"
-  },
+  }
 }
