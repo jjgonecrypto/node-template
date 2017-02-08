@@ -20,7 +20,7 @@
   ],
   "author": "justin j. moses <justinjmoses@gmail.com>",
   "license": "MIT",
-  "repository": "justinjmoses/{{name}}",
+  "repository": "https://github.com/justinjmoses/{{name}}",
   "engines": {
     "node": ">={{default minNodeVersion '6.0.0'}}"
   },
