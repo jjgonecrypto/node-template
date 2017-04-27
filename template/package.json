@@ -1,8 +1,8 @@
 {
-  "name": "{{name}}",
+  "name": "{{default name basename}}",
   "version": "{{default version '1.0.0'}}",
   "description": "{{description}}",
-  "main": "{{ default main 'index.js'}}",
+  "main": "{{default main 'index.js'}}",
   {{#bin}}
   "bin": {
     "{{binFile}}": "./bin/cli.js"
@@ -20,7 +20,7 @@
   ],
   "author": "justin j. moses <justinjmoses@gmail.com>",
   "license": "MIT",
-  "repository": "https://github.com/justinjmoses/{{name}}",
+  "repository": "https://github.com/justinjmoses/{{default name basename}}",
   "engines": {
     "node": ">={{default minNodeVersion '6.0.0'}}"
   },
